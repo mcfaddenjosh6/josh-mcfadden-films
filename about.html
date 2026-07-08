@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Josh McFadden Films</title>
+<meta name="description" content="About Josh McFadden — photographer and filmmaker.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css?v=5">
+</head>
+<body>
+
+<header class="site-header solid">
+  <div class="header-inner">
+    <a href="index.html" class="logo display">JMF</a>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="work.html">Work</a>
+      <a href="about.html" class="active">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+  </div>
+</header>
+
+<div class="page-hero">
+  <div class="eyebrow">About</div>
+</div>
+
+<div class="about-grid">
+
+  <div class="about-photos">
+    <div class="photo-slot tall"><img src="assets/images/about/josh-farm.jpg" alt="Josh McFadden in a field at dusk"></div>
+    <div class="photo-slot"><img src="assets/images/about/josh-by-jj.jpg" alt="Josh McFadden sitting on a stoop in New York" style="object-position: 70% 50%;"></div>
+  </div>
+
+  <div class="about-text">
+    <h1 class="display">Josh McFadden</h1>
+    <p>Josh is a New York based photographer and filmmaker, and a student at New York University's Tisch School of the Arts and Leonard N. Stern School of Business, double majoring in film and marketing. Growing up in Nebraska instilled a passion for exploring far and wide to find untold stories, and his move to the big city serves as a constant source of inspiration to capture big moments. His work is focused on visual storytelling as a tool for communication, branding, and problem-solving.</p>
+    <p>That work spans fashion photography along with commercial, corporate, and narrative projects. This includes campaigns and lookbooks for labels like Yutori, Kozaburo, and ViewFinder on the photo side, and spec ads, documentaries, and short films on the video side. Across all of it, the goal is the same: translating complex ideas into clear, story-driven, engaging content for the modern media landscape.</p>
+    <p>Have a project, a campaign, a short film, or a story that needs telling? Josh would love to hear about it.</p>
+    <a href="contact.html" class="btn accent">Get in touch</a>
+
+    <div class="about-facts">
+      <div><span>Based In</span>New York City</div>
+      <div><span>Education</span>NYU Tisch &amp; Stern — Film + Marketing</div>
+      <div><span>Recent Clients</span>Yutori, Kozaburo, ViewFinder, McIver</div>
+      <div><span>Available For</span>Campaigns, Editorial, Commercial, Short Film</div>
+    </div>
+  </div>
+
+</div>
+
+<footer class="site-footer">
+  <div>&copy; <span id="year"></span> Josh McFadden Films</div>
+  <div class="footer-links">
+    <a href="work.html">Work</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="js/main.js"></script>
+</body>
+</html>

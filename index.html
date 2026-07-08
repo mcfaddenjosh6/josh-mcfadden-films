@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Josh McFadden Films — Photography &amp; Videography</title>
+<meta name="description" content="Josh McFadden Films — photography and videography portfolio: campaigns, editorials, and short films.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Caveat:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css?v=5">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="logo display">JMF</a>
+    <nav class="main-nav">
+      <a href="index.html" class="active">Home</a>
+      <a href="work.html">Work</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-inner">
+
+    <div class="intro-clones" id="introClones" aria-hidden="true">
+      <span class="clone" data-target="0">J</span>
+      <span class="clone" data-target="5">M</span>
+      <span class="clone" data-target="14">F</span>
+    </div>
+
+    <div class="marquee">
+      <div class="marquee-track" id="marqueeTrack">
+        <div class="marquee-copy" id="copyA">
+          <span class="letter" data-i="0">J</span><span class="letter" data-i="1">o</span><span class="letter" data-i="2">s</span><span class="letter" data-i="3">h</span><span class="letter" data-i="4">&nbsp;</span><span class="letter" data-i="5">M</span><span class="letter" data-i="6">c</span><span class="letter" data-i="7">F</span><span class="letter" data-i="8">a</span><span class="letter" data-i="9">d</span><span class="letter" data-i="10">d</span><span class="letter" data-i="11">e</span><span class="letter" data-i="12">n</span><span class="letter" data-i="13">&nbsp;</span><span class="letter" data-i="14">F</span><span class="letter" data-i="15">i</span><span class="letter" data-i="16">l</span><span class="letter" data-i="17">m</span><span class="letter" data-i="18">s</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="hero-scrollcue">
+    <span>Scroll</span>
+    <span class="line"></span>
+  </div>
+</section>
+
+<section class="home-intro">
+  <h2>Photography &amp; videography built around a moment worth chasing.</h2>
+  <div>
+    <p>Josh McFadden Films is the work of a New York–based photographer and filmmaker studying film and marketing at NYU, shooting fashion campaigns, lookbooks, and short films with a focus on visual storytelling as a tool for communication, branding, and problem-solving.</p>
+    <a href="work.html" class="btn accent">View the work</a>
+  </div>
+</section>
+
+<section class="featured-strip">
+  <div class="strip-head">
+    <h3>Selected Work</h3>
+    <a href="work.html" class="btn">See all</a>
+  </div>
+  <div class="featured-grid">
+
+    <a class="project-card" href="work/mciver-rat-rock.html">
+      <div class="card-media">
+        <img src="assets/images/work/mciver-rat-rock/thumb-grid.jpg" alt="McIver — Rat Rock campaign">
+      </div>
+      <div class="card-meta">
+        <div class="card-cat">Photography</div>
+        <h4>Rat Rock</h4>
+        <div class="card-client">McIver</div>
+      </div>
+    </a>
+
+    <a class="project-card" href="work/nivarana.html">
+      <div class="card-media">
+        <img src="assets/images/video-posters/nivarana.jpg" alt="Nivarana short film still" onerror="this.style.display='none'">
+        <div class="play-badge"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+      </div>
+      <div class="card-meta">
+        <div class="card-cat">Videography</div>
+        <h4>Nivarana</h4>
+        <div class="card-client">Short Film</div>
+      </div>
+    </a>
+
+    <a class="project-card" href="work/viewfinder-dec15.html">
+      <div class="card-media">
+        <img src="assets/images/work/viewfinder-dec15/thumb-grid.jpg" alt="ViewFinder — December issue">
+      </div>
+      <div class="card-meta">
+        <div class="card-cat">Photography</div>
+        <h4>December Issue</h4>
+        <div class="card-client">ViewFinder</div>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div>&copy; <span id="year"></span> Josh McFadden Films</div>
+  <div class="footer-links">
+    <a href="work.html">Work</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="js/main.js"></script>
+</body>
+</html>
