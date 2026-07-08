@@ -764,6 +764,23 @@ img { max-width: 100%; display: block; }
   border: none;
 }
 
+/* single full-height about photo */
+.about-photos.single {
+  display: block;
+  align-self: stretch;
+}
+
+.about-photos.single .about-photo-full {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+@media (max-width: 860px) {
+  .about-photos.single .about-photo-full { height: auto; }
+}
+
 .about-photos img { width: 100%; height: 100%; object-fit: cover; }
 
 .about-text p {
